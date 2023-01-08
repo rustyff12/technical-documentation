@@ -1,0 +1,25 @@
+/* ---- Some Resets ---- */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* ---- Universal ---- */
+
+body {
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-size: 2rem;
+}
+
+
+
+.code-section {
+    border: 2px solid red;
+    display: block;
+    padding: 2em;
+}
