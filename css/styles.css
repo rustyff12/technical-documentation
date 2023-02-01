@@ -24,7 +24,7 @@ h4, h5, h6, p {
 
     /* --- Font --- */
     --line-height: 1rem;
-    --fs-lg: 0.75rem;
+    --fs-lg: 1rem;
     --fs-sm: 0.5rem;
 
     --pad-lg: 2rem;
@@ -37,7 +37,7 @@ h4, h5, h6, p {
     :root {
         /* --- Font --- */
         --line-height: 1.5rem;
-        --fs-lg: 1rem;
+        --fs-lg: 1.25rem;
         --fs-sm: 0.75rem;
 
         --pad-lg: 4rem;
@@ -50,7 +50,7 @@ h4, h5, h6, p {
     :root {
         /* --- Font --- */
         --line-height: 1.5rem;
-        --fs-lg: 1rem;
+        --fs-lg: 1.75rem;
         --fs-sm: 0.75rem;
 
         --pad-lg: 4rem;
@@ -162,6 +162,11 @@ header {
         height: 100vh;
         min-width: 290px;
         position: fixed;
+    }
+
+    #navbar header{
+        text-align: center;
+        margin-bottom: 2.5rem;
     }
 
     .navbar {
